@@ -137,7 +137,7 @@ public class FrmJuego extends javax.swing.JFrame {
                 break;
             case 1:
                 mensaje = jugador2.getGrupos();
-                mensaje = jugador1.getEscaleras();
+                mensaje = jugador2.getEscaleras();
                 break;
         }
         JOptionPane.showMessageDialog(null, mensaje);
