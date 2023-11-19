@@ -44,4 +44,8 @@ public class Carta {
 
     }
 
+    public int getIndice() {
+        return indice;
+    }
+    
 }

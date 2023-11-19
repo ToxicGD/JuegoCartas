@@ -133,12 +133,15 @@ public class FrmJuego extends javax.swing.JFrame {
         switch (pestaña) {
             case 0:
                 mensaje = jugador1.getGrupos();
+                mensaje = jugador1.getEscaleras();
                 break;
             case 1:
                 mensaje = jugador2.getGrupos();
+                mensaje = jugador1.getEscaleras();
                 break;
         }
         JOptionPane.showMessageDialog(null, mensaje);
+        
 
     }//GEN-LAST:event_btnVerificarActionPerformed
 
